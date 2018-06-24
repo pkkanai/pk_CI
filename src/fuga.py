@@ -3,4 +3,5 @@
 class Fuga:
 
     def index(self):
-        print('
+        print('i')
+        return False
