@@ -9,7 +9,7 @@ class HogeTest(unittest.TestCase):
         print('setUp')
 
     def test_first(self):
-        print('test_first')
+        print('うんこしたい')
 
     def test_fuga(self):
         fuga = Fuga()
