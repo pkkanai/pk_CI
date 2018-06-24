@@ -13,10 +13,11 @@ class HogeTest(unittest.TestCase):
     def test_of_test(self):
         print('テストのテスト')
 
-    def test_first2(self):
-        print(1+1)
-        False
+#    def test_first2(self):
+#        print(1+1)
+#        False
 
+    #テスト：ふがのindex呼び出し
     def test_fuga(self):
         fuga = Fuga()
         self.assertTrue(fuga.index())
