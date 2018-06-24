@@ -6,13 +6,14 @@ from fuga import Fuga
 class HogeTest(unittest.TestCase):
 
     def setUp(self):
-        print('setUp')
+        print('ちょっとなにってるかわかんない')
 
     def test_of_test(self):
         print('うんこしたい')
 
     def test_first2(self):
         print(1+1)
+        True
         True
 
 

@@ -1,13 +1,13 @@
 language: python
 
 python:
-  - 3.4
+  - 3.3
 
 install:
   - pip install coveralls
 
 script:
-  - coverage run --source=hoge_test setup.py test
+  - coverage run --source=testCi setup.py test
 
 after_success:
   - coveralls
