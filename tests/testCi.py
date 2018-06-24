@@ -10,7 +10,7 @@ class HogeTest(unittest.TestCase):
         print('setup ok')
 
     #テスト：文字出すだけ
-    def test_of_test(self):
+    def test_first(self):
         print('テストのテスト')
 
 #    def test_first2(self):
