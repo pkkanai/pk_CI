@@ -5,9 +5,9 @@ from fuga import Fuga
 
 class HogeTest(unittest.TestCase):
 
-    #セットアップ時のメッセージ
-#    def setUp(self):
-#        print('setup ok')
+    #各テストセットアップ時のメッセージ
+    def setUp(self):
+        print('setup ok')
 
     #テスト：文字出すだけ
     def test_of_test(self):
@@ -16,7 +16,6 @@ class HogeTest(unittest.TestCase):
     def test_first2(self):
         print(1+1)
         False
-
 
     def test_fuga(self):
         fuga = Fuga()
