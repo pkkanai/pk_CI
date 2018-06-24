@@ -5,11 +5,17 @@ from fuga import Fuga
 
 class HogeTest(unittest.TestCase):
 
-    def setUp(self):
-        print('setUp')
+    #def setUp(self):
+    #    print('setUp')
 
     def test_first(self):
         print('うんこしたい')
+
+    def test_first(self):
+        print('はんまーかんまー')
+        True
+        print(1+1)
+
 
     def test_fuga(self):
         fuga = Fuga()
