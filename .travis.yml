@@ -2,12 +2,17 @@ language: python
 
 python:
   - 3.3
+  - 3.4
 
-#install:
-#  - pip install coveralls
+install:
+  - pip install coveralls
 
 script:
-  - coverage run testCi.py test
+  - coverage run --source=hoge_test setup.py test
 
-#after_success:
-#  - coveralls
+after_success:
+  - coveralls
+
+notifications:
+  slack:
+    secure: your_token_key
