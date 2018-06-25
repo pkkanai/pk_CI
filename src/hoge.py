@@ -1,7 +1,8 @@
 class Hoge:
 
     def index(self):
-        if 2 + 3 == 3:
+        go = 5
+        if 2 + 3 == go:
             print('正解')
             return True
         else:
