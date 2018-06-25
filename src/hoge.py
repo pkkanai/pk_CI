@@ -1,4 +1,4 @@
-class Fuga:
+class Hoge:
 
     def index(self):
         if 2 + 3 == 3:

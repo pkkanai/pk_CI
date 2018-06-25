@@ -1,7 +1,5 @@
-# coding:utf-8
-
 import unittest
-from fuga import Fuga
+from hoge import Hoge
 
 class HogeTest(unittest.TestCase):
 
@@ -13,9 +11,9 @@ class HogeTest(unittest.TestCase):
     def test_first(self):
         print('テストのテスト')
 
-    #テスト2：ふがのindex呼び出し
+    #テスト2：ほげのindex呼び出し
     def test_hoge(self):
-        hoge = Fuga()
+        hoge = Hoge()
         self.assertTrue(hoge.index())
 
 
