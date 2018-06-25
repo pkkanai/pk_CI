@@ -16,8 +16,8 @@ class HogeTest(unittest.TestCase):
     #テスト2：ふがのindex呼び出し
     def test_hoge(self):
         go = 5
-        hoge = Fuga()
-        self.assertTrue(hoge.index(go))
+        hoge = Fuga(go)
+        self.assertTrue(hoge.index())
 
 
 def suite():
