@@ -11,7 +11,3 @@ script:
 
 after_success:
   - coveralls
-
-notifications:
-  slack:
-    secure: your_token_key
