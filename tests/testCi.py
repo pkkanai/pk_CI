@@ -17,7 +17,7 @@ class HogeTest(unittest.TestCase):
     def test_hoge(self):
         go = 5
         fuga = Fuga()
-        self.assertTrue(hoge.index(go))
+        self.assertTrue(fuga.index(go))
 
 
 def suite():
