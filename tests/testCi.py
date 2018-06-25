@@ -1,7 +1,7 @@
 # coding:utf-8
 
 import unittest
-from hoge import Fuga
+from fuga import Fuga
 
 class HogeTest(unittest.TestCase):
 
