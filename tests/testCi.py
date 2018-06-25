@@ -14,10 +14,10 @@ class HogeTest(unittest.TestCase):
         print('テストのテスト')
 
     #テスト2：ふがのindex呼び出し
-    def test_fuga(self):
+    def test_hoge(self):
         go = 5
-        fuga = Fuga()
-        self.assertTrue(fuga.index(go))
+        hoge = Fuga()
+        self.assertTrue(hoge.index())
 
 
 def suite():
