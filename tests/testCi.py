@@ -1,4 +1,4 @@
-#import unittest
+import unittest
 from hoge import Hoge
 
 class HogeTest(unittest.TestCase):
