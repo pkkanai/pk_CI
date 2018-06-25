@@ -1,9 +1,7 @@
-# coding utf-8
-
 class Fuga:
 
     def index(self):
-        if 2 + 3 == 5:
+        if 2 + 3 == 3:
             print('正解')
             return True
         else:
