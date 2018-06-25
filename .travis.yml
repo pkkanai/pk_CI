@@ -8,6 +8,3 @@ install:
 
 script:
   - coverage run --source=testCi setup.py test
-
-#after_success:
-#  - coveralls
