@@ -5,4 +5,9 @@ sys.path.append('./src')
 sys.path.append('./tests')
 
 setup(
-    name = '
+    name = 'äťťć',
+    version = '0.1',
+    description='This is test codes for travis ci',
+    packages = find_packages(),
+    test_suite = 'testCi.suite'
+)
