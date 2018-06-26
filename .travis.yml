@@ -8,11 +8,4 @@ install:
   - pip install coveralls
 
 script:
-  - coverage run --source=hoge_test setup.py test
-
-after_success:
-  - coveralls
-
-notifications:
-  slack:
-    secure: your_token_key
+  - coverage run --source=testCi setup.py test
