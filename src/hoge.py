@@ -8,4 +8,4 @@ class Hoge:
             return True
         else:
             print('いや5でしょ、さすがに草')
-            return FalseS
+            return False
