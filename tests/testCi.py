@@ -1,5 +1,5 @@
 import unittest
-from fuga import Fuga
+from hoge import Hoge
 
 class HogeTest(unittest.TestCase):
 
