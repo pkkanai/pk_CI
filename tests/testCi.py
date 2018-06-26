@@ -11,7 +11,7 @@ class HogeTest(unittest.TestCase):
     def test_first(self):
         print('テストのテスト')
 
-    #テスト2：ほげのindex呼び出し
+    #テスト2：ほげのindexメソッド呼び出し
     def test_hoge(self):
         hoge = Hoge()
         self.assertTrue(hoge.index())
