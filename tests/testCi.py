@@ -9,7 +9,7 @@ class HogeTest(unittest.TestCase):
 
     #テスト1：文字出すだけ
     def test_first(self):
-        print('テストのテスト')
+        print('テストofテスト')
 
     #テスト2：ほげのindexメソッド呼び出し
     def test_hoge(self):
