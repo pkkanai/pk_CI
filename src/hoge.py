@@ -10,7 +10,7 @@ class Hoge:
             if go == 5:
                 print('5いただきました！')
                 return True
-　
+
         　　if go == 10:
         　　    print('いや5とか来ないでしょ、さすがに草')
         　　    return False
