@@ -1,11 +1,14 @@
 class Hoge:
 
     def index(self):
-        i = 2
+
+        i = 1
 
         #初期値、終点、増加値
         for go in range(0,10,i):
+
             print(go)
+
             if go == 5:
                 print('5いただきました！')
                 return True
