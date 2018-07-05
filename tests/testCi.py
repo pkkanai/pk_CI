@@ -6,7 +6,7 @@ class HogeTest(unittest.TestCase):
     #各テストセットアップ時のメッセージ
     def setUp(self):
         print('setup ok')
-a = input('>>')
+
     #テスト1：文字出すだけ
     def test_first(self):
         print('テストofテスト')

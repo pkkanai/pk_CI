@@ -2,10 +2,15 @@
 class Hoge:
 
     def index(self):
-        go = 5
-        if 2 + 3 == go:
-            print('正解')
-            return True
-        else:
-            print('いや5でしょ、さすがに草')
-            return False
+        i = 2
+
+        #初期値、終点、増加値
+        for go in range(0,10,i):
+
+            if go == 5:
+                print('5いただきました！')
+                return True
+　
+        　　if go == 10:
+        　　    print('いや5とか来ないでしょ、さすがに草')
+        　　    return False
