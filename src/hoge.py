@@ -2,7 +2,7 @@ class Hoge:
 
     def index(self):
 
-        i = 2
+        i = 1
 
         #初期値、終点、増加値
         for go in range(0,11,i):
